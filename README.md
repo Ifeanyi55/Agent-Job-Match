@@ -1,6 +1,6 @@
 # Agent Job Match
 
-An [Antigravity](https://github.com/) agent that takes a reference CV and a job advertisement, and produces a tailored CV and cover letter for that specific role — without inventing or misrepresenting the candidate's actual experience.
+An [Antigravity](https://antigravity.google/) agent that takes a reference CV and a job advertisement, and produces a tailored CV and cover letter for that specific role — without inventing or misrepresenting the candidate's actual experience.
 
 ## Objective
 
