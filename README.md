@@ -47,12 +47,15 @@ Job-CV/                           # generated outputs, one subfolder per job
 - Every claim traces back to the reference CV — no invented skills or experience.
 
 ## Usage
+1. Clone the repository with `git clone`
+2. Open the `Agent-Job-Match` folder inside Antigravity IDE
+3. Drop a job advertisement as a markdown file into `Job-Ad/`.
+4. Make sure the reference CV is present in `CV/`.
+5. Ask the agent to ingest the new job ad.
+6. Ask the agent to generate the matched CV and cover letter.
+7. Find both files under `Job-CV/<job-title>-<company>/`.
 
-1. Drop a job advertisement into `Job-Ad/`.
-2. Make sure the reference CV is present in `CV/`.
-3. Ask the agent to ingest the new job ad.
-4. Ask the agent to generate the matched CV and cover letter.
-5. Find both files under `Job-CV/<job-title>-<company>/`.
+Optionally, you can use [Antigravity CLI](https://antigravity.google/product/antigravity-cli) to run the agent. Change into the repo with `cd Agent-Job-Match` and then prompt the agent after you have placed the reference CV inside the `CV/` folder and dropped a job advert inside `Job-Ad/` folder.
 
 ## Design Principles
 
